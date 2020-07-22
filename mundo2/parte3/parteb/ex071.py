@@ -5,7 +5,6 @@ print('=' * 30)
 ''' Minha solução gigante
 while True:
     saque = int(input('Que valor você quer sacar? R$'))
-    
     cem = saque // 100
     resto_cem = saque % 100
     cinquenta =  resto_cem // 50
@@ -22,7 +21,7 @@ while True:
         resto = resto_cinco % 2
     else:
         dois = resto_dez // 2
-    
+
     flag = ' '
     if resto != 0:
         print('ESTE VALOR NÃO HÁ COMBINAÇÃO DE NOTAS PARA SAQUE.')
@@ -70,7 +69,6 @@ while True:
             ced = 1
         totced = 0
         if total == 0:
-            break 
-
+            break
 print('=' * 30)
 print('Volte sempre ao Banco Costa! Tenha um execelente dia!')
