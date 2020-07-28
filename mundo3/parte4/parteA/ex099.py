@@ -2,7 +2,8 @@ from time import sleep
 def maiorLista(*lista):
     print('=-' * 30)
     if not lista:
-        print('Nenhum parametro atribuido! Não há valores para definir qual é o maior!')
+        print('Nenhum parametro atribuido! Não há valores para definir qual é o maior!', flush=True)
+        sleep(0.5)
     else:
         lst = lista
         for c in lst:
