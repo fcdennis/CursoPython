@@ -1,4 +1,4 @@
-from time import sleep
+import time as tm
 def contador(a, b, c):
     if c == 0:
         c = 1
@@ -9,12 +9,12 @@ def contador(a, b, c):
         while a <= b:
             print(a, end=' ', flush=True)
             a += c
-            sleep(0.3)
+            tm.sleep(0.3)
     elif a > b:
         while a >= b:
             print(a, end=' ', flush=True)
             a -= c
-            sleep(0.3)
+            tm.sleep(0.3)
     print('FIM!')
 
 
